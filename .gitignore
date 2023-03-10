@@ -1,0 +1,5 @@
+yolov8n.pt
+yolov8
+datasets/test
+datasets/train
+datasets/valid

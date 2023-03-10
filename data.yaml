@@ -1,0 +1,12 @@
+#train: ../train/images
+#test: ../test/images
+#val: ../valid/images
+
+train: /Users/agustingenoud/Desktop/apps/Data-Science-Challenge-main/Dataset-Yolo/WildFire_Smoke_Dataset_YOLO/datasets/train/images
+test: /Users/agustingenoud/Desktop/apps/Data-Science-Challenge-main/Dataset-Yolo/WildFire_Smoke_Dataset_YOLO/datasets/test/images
+val: /Users/agustingenoud/Desktop/apps/Data-Science-Challenge-main/Dataset-Yolo/WildFire_Smoke_Dataset_YOLO/datasets/valid/images
+
+nc: 1
+names: ['smoke']
+
+x: 
