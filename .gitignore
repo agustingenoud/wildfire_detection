@@ -3,3 +3,12 @@ yolov8
 datasets/test
 datasets/train
 datasets/valid
+runs/train6_first
+runs/detect/train
+runs/detect/train2
+runs/detect/train3
+runs/detect/train4
+runs/detect/train5
+runs/detect/val
+runs/detect/val2
+runs/detect/val3
