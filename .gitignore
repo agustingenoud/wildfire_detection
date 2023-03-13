@@ -1,8 +1,5 @@
 yolov8n.pt
 yolov8
-datasets/test
-datasets/train
-datasets/valid
 runs/train6_first
 runs/detect/train
 runs/detect/train2
@@ -12,3 +9,12 @@ runs/detect/train5
 runs/detect/val
 runs/detect/val2
 runs/detect/val3
+VGG-Test/vgg
+VGG-Test/output/VGG_detector.h5
+datasets/test
+datasets/train
+datasets/valid
+VGG-Test/Dataset-Tensorflow/test
+VGG-Test/Dataset-Tensorflow/train
+VGG-Test/Dataset-Tensorflow/valid
+VGG-Test/__pycache__

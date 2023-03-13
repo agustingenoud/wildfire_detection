@@ -12,9 +12,11 @@ TRAIN_IMAGES_PATH = os.path.sep.join([BASE_PATH, "train"])
 TEST_IMAGES_PATH = os.path.sep.join([BASE_PATH, "test"])
 VALID_IMAGES_PATH = os.path.sep.join([BASE_PATH, "valid"])
 
+
 TRAIN_CSV_PATH = os.path.sep.join([TRAIN_IMAGES_PATH, "_annotations.csv"])
 TEST_CSV_PATH = os.path.sep.join([TEST_IMAGES_PATH, "_annotations.csv"])
 VALID_CSV_PATH = os.path.sep.join([VALID_IMAGES_PATH, "_annotations.csv"])
 
 # Define the path to the base output directory
 BASE_OUTPUT = "output"
+MODEL_PATH = os.path.sep.join([BASE_OUTPUT, "VGG_detector.h5"])
