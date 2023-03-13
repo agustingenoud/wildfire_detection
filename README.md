@@ -1,7 +1,6 @@
 # Wildfire detection
 
-The dataset with Yolo form should be placed inside the datasets dir.
-The data.yaml file should be placed in the root.
+Ubicar el dataset de Yolo dentro de la carpeta "datasets" de la sigiuente manera:
 
 ```
 |___/datasets
@@ -20,7 +19,10 @@ The data.yaml file should be placed in the root.
 |___data.yaml
 ````
 
-Los primeros modelos train 1-6 fueron para establecer un baseline y entender cómo Yolo se comporta. Luego realicé los siguientes cambios en los hyperpsrámetros para poder obtener mejores resultados. Los siguientes hp's fueron utilizados logrando una mejor convergencia en mayor cantidad de corridas (50):
+El archivo principal basado en la utilización de YOLO se encuentra en el siguiente archivo [yolov8.ipynb](yolov8.ipynb). Dentro de la carpeta [VGG-Test](VGG-Test) se encuentra una prueba realizada con un fine-tuning de la red VGG realizado para poder comparar los resultados, obtener una referencia del baseline y poder entender diferentes comportamientos del modelo y diferentes maneras de mejorar la performance en un futuro a partir de más pruebas.
+
+
+Dentro del entrenamientode Yolo los primeros modelos train 1-6 fueron para establecer un baseline y entender cómo Yolo se comporta. Luego realicé los siguientes cambios en los hyperpsrámetros para poder obtener mejores resultados. Los siguientes hp's fueron utilizados logrando una mejor convergencia en mayor cantidad de corridas (50):
 
         epochs=50
         batch=64
