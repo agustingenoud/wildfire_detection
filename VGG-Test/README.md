@@ -1,0 +1,1 @@
+En caso de querer reproducir los experimentos ubicar el dataset dentro de la carpeta "Dataset-Tensorflow" dentro de la carpeta "datasets" de la sigiuente manera.

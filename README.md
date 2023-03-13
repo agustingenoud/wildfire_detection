@@ -1,6 +1,6 @@
 # Wildfire detection
 
-Ubicar el dataset de Yolo dentro de la carpeta "datasets" de la sigiuente manera:
+En caso de querer reproducir los experimentos ubicar ubicar el dataset de Yolo dentro de la carpeta "datasets" de la sigiuente manera:
 
 ```
 |___/datasets
